@@ -51,7 +51,9 @@ Here is a simple example of using `docker-compose` to run the integration, inclu
 ```yaml
 services:
   xiaomi-air-purifier:
-    build: .
+    build:
+      context: https://github.com/Keeo/zhimi-airp-rmb1.git
+      dockerfile: Dockerfile
     container_name: xiaomi-air-purifier
     environment:
         XIAOMI_IP: YOUR_DEVICE_IP
