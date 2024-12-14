@@ -1,10 +1,10 @@
 # Xiaomi Smart Air Purifier 4 Lite MQTT Integration
 
+This project extends Home Assistant's Xiaomi integration to add MQTT-powered control for the Xiaomi Smart Air Purifier 4 Lite, enabling precise speed control through MQTT topics. This allows seamless integration and enhanced functionality within Home Assistant.
+
 ## ⚠️ Warning
 
 This project should not need to exist. However, the default installation of the Xiaomi add-on and this particular air filter does not support fan speed control. This integration uses the latest `miio` tools, which do support it but are currently in an alpha state and not directly usable in Home Assistant. Thus, this very simple and lightweight integration was created.
-
-This project extends Home Assistant's Xiaomi integration to add MQTT-powered control for the Xiaomi Smart Air Purifier 4 Lite, enabling precise speed control through MQTT topics. This allows seamless integration and enhanced functionality within Home Assistant.
 
 ## Features
 
