@@ -1,0 +1,3 @@
+git+https://github.com/rytilahti/python-miio.git@edb06c5
+aiomqtt
+loguru
